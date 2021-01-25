@@ -1,0 +1,51 @@
+/* css stuff */
+
+body {
+	background-color: #66a3ff; /* light blue */
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+a {
+	background-color: white;
+	padding: 10px;
+}
+
+#nav {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.content {
+	background-color: #99c2ff; /* lighter blue */
+	border: solid black 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* mobile */
+.content {
+	width: 100%;
+}
+
+/* not mobile */
+@media only screen and (min-width: 768px) {
+	.content {
+		width: 47%;
+	}
+	
+	#para1 {
+		float: left;
+	}
+	
+	#para2 {
+		float: right;
+	}
+}
+
